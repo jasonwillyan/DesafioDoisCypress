@@ -1,22 +1,34 @@
-# Cypress.io end-to-end tests 🚀
+# Desafio #02 do curso Agilizei 
 
-[Cypress.io](https://www.cypress.io) is an open source, MIT licensed end-to-end test runner
+Teste de automação web usando Cypress
 
-## Folder structure
+### Pré-requisitos 
 
-These folders hold the end-to-end tests and supporting files for the [Cypress Test Runner](https://github.com/cypress-io/cypress).
+1️⃣ Visual Studio Code
 
-- [fixtures](fixtures) folder holds optional JSON data for mocking, [read more](https://on.cypress.io/fixture)
-- [integration](integration) holds the actual test files, [read more](https://on.cypress.io/writing-and-organizing-tests)
-- [plugins](plugins) allow you to customize how tests are loaded, [read more](https://on.cypress.io/plugins)
-- [support](support) file runs before all tests and is a great place to write or load additional custom commands, [read more](https://on.cypress.io/writing-and-organizing-tests#Support-file)
+2️⃣ Node.js
 
-## `cypress.json` file
+### Configurando
 
-You can configure project options in the [../cypress.json](../cypress.json) file, see [Cypress configuration doc](https://on.cypress.io/configuration).
+1. Clone o projeto
 
-## More information
+2. Para executar o projeto, execute o comando no diretório raiz do projeto
 
-- [https://github.com/cypress.io/cypress](https://github.com/cypress.io/cypress)
-- [https://docs.cypress.io/](https://docs.cypress.io/)
-- [Writing your first Cypress test](https://on.cypress.io/intro)
+```
+npm install
+```
+
+### Comandos
+
+```
+npm run cy:open
+Electron: `npm run cy:run:electron`
+Chrome: `npm run cy:run:chrome`
+Firefox: `npm run cy:run:firefox`
+
+```
+
+## Author
+
+<a target="_blank" href="https://github.com/jasonwillyan">👤 Jason Willyan </a>
+
